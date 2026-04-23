@@ -1,20 +1,56 @@
 ---
-title: "My Website"
+title: "Welcome!"
 ---
 
-::: columns
-::: {.column width="50%" style="text-align: center;"}
-
+::::::: columns
+::: {.column width="30%" style="text-align: center;"}
 ```{r, echo=FALSE, fig.align='center', out.width='40%'}
-knitr::include_graphics("images/profile_pic.png")
+
+library(htmltools)
+htmltools::tags$img(
+  src = "images/profile_pic.png",
+  style = "
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+  "
+)
 ```
 
 ## Kelly Zhu
 
+<p class="subtitle">
+MPH Biostatistics Candidate 
+<br>
+Rollins School of Public Health
+</p>
+
+
 :::
 
-::: {.column width="50%" style="text-align: left;"}
+::::: {.column width="70%" style="text-align: left;"}
+I’m a graduate student at the Rollins School of Public Health focused on analyzing large health datasets using regression, survival analysis, longitudinal methods, and machine learning. I primarily work in R, SAS, and Python.  
 
-Add some text here describing yourself. Add a [link](https://google.com) so we can see behavior later. 
+I’m interested in applying these skills in healthcare, consulting, and public health settings where data has impact.
 
-:::
+[→ About Me](about.html)
+
+---
+
+## 
+
+## Featured Project
+
+### Kidney Function Post-Transplant Dashboard
+
+<p>This interactive dashboard visualizes longitudinal estimated glomerular filtration rate (eGFR) data from a renal transplant clinical trial, allowing researchers and clinicians to explore treatment effects and patient-level trajectories over time.</p> 
+
+[→ View All Projects](projects.html)
+
+:::::
+
+:::::::

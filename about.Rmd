@@ -1,5 +1,59 @@
 ---
-title: "About This Website"
+title: "About Me"
 ---
 
-More about this website.
+::::::: columns
+::: {.column width="30%" style="text-align: center;"}
+```{r, echo=FALSE, fig.align='center', out.width='40%'}
+
+library(htmltools)
+htmltools::tags$img(
+  src = "images/profile_pic.png",
+  style = "
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+  "
+)
+```
+
+## Kelly Zhu
+
+<p class="subtitle">
+MPH Biostatistics Candidate 
+<br>
+Rollins School of Public Health
+</p>
+
+:::
+
+::::: {.column width="70%" style="text-align: left;"}
+
+I’m a graduate student at the Rollins School of Public Health with a strong interest in using data to answer complex, real-world questions. My work focuses on analysis of large health datasets, applying methods such as regression, survival analysis, longitudinal modeling, and machine learning. I primarily work in R, SAS, and Python.
+
+I’m especially interested in applying these skills in healthcare services, consulting, and public health research — where data has real impact on improving outcomes. With a background spanning psychology, economics, and data science, I bring an interdisciplinary perspective and enjoy working with diverse groups. 
+
+
+:::: {style="display: flex; gap: 20px;"}
+::: {style="flex: 1; text-align: left;"}
+<b>Interests</b>
+<ul style="margin-top: 6px; padding-left: 18px;">
+  <li>Biostatistics & applied modeling</li>
+  <li>Behavioral economics</li>
+  <li>Mental health disparities</li>
+  <li>Health communication</li>
+</ul>
+:::
+::: {style="flex: 1; text-align: left;"}
+<b>Education</b>
+<ul style="margin-top: 6px; padding-left: 18px;">
+  <li>MPH in Biostatistics, Emory Rollins School of Public Health</li>
+  <li>BA in Psychology & Economics, New York University</li>
+</ul>
+:::
+::::
+:::::

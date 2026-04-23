@@ -1,11 +1,69 @@
 ---
 title: "Projects"
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
-### [DATA 550 website](https://bit.ly/info550)
+<!-- PROJECT CARD 1 -->
 
-A jeykll website I built for previous iterations of this class
+:::::::::: {style="max-width: 800px; margin: 0 auto;"}
+::::::::: projects-container
+::::: project-card
+<h3>Kidney Function Post-Transplant Dashboard</h3>
 
-### [`vaxstrat` R package](https://github.com/allicodi/vaxstrat)
+<p>This interactive dashboard visualizes longitudinal estimated glomerular filtration rate (eGFR) data from a renal transplant clinical trial, allowing researchers and clinicians to explore treatment effects and patient-level trajectories over time.</p>
 
-An R package for computing principal effects quantifying vaccine impact on post-infection endpoints.
+::: tags
+<span>Longitudinal analysis</span>
+<span>Interactive dashboard</span>
+<span>R/Shiny</span>
+:::
+
+::: links
+<a href="https://4djnll-kelly-zhu.shinyapps.io/FinalProject3/">View Project</a>
+<a href="https://github.com/khz123/renal-outcomes-dashboard">GitHub</a>
+:::
+:::::
+
+
+<!-- PROJECT CARD 2 -->
+
+::::: project-card
+<h3>Epigenetic Aging and Smoking</h3>
+
+<p>Environmental health omics project examining smoking-related epigenetic aging across multiple epigenetic clocks using CpG-level and clock-level analyses, highlighting stronger associations in morbidity-focused clocks such as Levine’s clock. Findings suggest smoking primarily influences health-relevant biological pathways, including inflammation, vascular function, and neural regulation, rather than uniformly accelerating global epigenetic age.</p>
+
+::: tags
+<span>Regression</span>
+<span>Epigenetic Aging</span>
+<span>R/Bioconductor</span>
+:::
+
+::: links
+<a href="https://github.com/khz123/epigenetic-age-and-smoking/blob/main/report.pdf">View Report</a>
+<a href="https://github.com/khz123/epigenetic-age-and-smoking">GitHub</a>
+:::
+:::::
+
+
+<!-- PROJECT CARD 3 -->
+
+::::: project-card
+<h3>Caffeine Health Analysis</h3>
+
+<p>Reproducible analysis of caffeine, alcohol, and sleep patterns across 20
+countries — containerized with Docker, managed with Make and renv.</p>
+
+::: tags
+<span>Regression</span>
+<span>Docker</span>
+<span>R</span>
+:::
+
+::: links
+<a href="https://github.com/khz123/caffeine-health-analysis">GitHub</a>
+:::
+:::::
+:::::::::
+::::::::::

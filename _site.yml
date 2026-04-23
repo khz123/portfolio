@@ -6,6 +6,7 @@ output:
     css: style.css
     includes: 
       in_header: header.html
+      
 navbar:
   left:
   - text: Home
@@ -13,13 +14,17 @@ navbar:
     icon: fa-home
   - text: About
     href: about.html
-    icon: fa-book-open
+    icon: fa-circle-info
   - text: Projects
     href: projects.html
     icon: fa-computer
-  - text: CV
-    href: files/test_file.pdf
+  - text: Resume
+    href: files/KZhu_Resume_S26.pdf
     icon: fa-paperclip
   right:
   - href: https://github.com/khz123
     icon: fa-github
+  - href: https://www.linkedin.com/in/kelly-zhu-h41423/
+    icon: fa-linkedin
+    
+output_dir: docs

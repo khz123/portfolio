@@ -1,4 +1,8 @@
 .Rproj.user/*
 .DS_Store
 .Rhistory
+
+_site/
+
+about.Rmd
 .Rproj.user
