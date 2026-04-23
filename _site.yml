@@ -19,7 +19,7 @@ navbar:
     href: projects.html
     icon: fa-computer
   - text: Resume
-    href: files/KZhu_Resume_S26.pdf
+    href: files/KZhu_RES_S26.pdf
     icon: fa-paperclip
   right:
   - href: https://github.com/khz123
